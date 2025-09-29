@@ -1,6 +1,6 @@
 import { UserModel } from "../models/sequelize/user.model.js";
 import { ProfileModel } from "../models/sequelize/profile.model.js";
-import { AssetModel } from "../models/sequelize/asset.model"; 
+import { AssetModel } from "../models/sequelize/asset.model.js";
 
 export const getAllUsers = async (_req, res) => {
   try {
